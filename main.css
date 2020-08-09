@@ -1,0 +1,98 @@
+body, h1{
+    margin: 0;
+}
+/*header*/
+header {
+    height: 140px;
+    background-color: tomato;
+    padding: 5px 0 10px 20px;
+}
+.logo {
+    font-size: 50px;
+    color: white;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+
+
+/*main-----画像*/
+.main {
+    height: auto;
+}
+.main-content {
+    background-image: url(iroenpitu2.jpeg);
+    background-size: cover;
+    height: 475px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.main-photo h1{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 150px;/* 250px - 24px; */
+}
+
+/*main-----p--*/
+
+hr.line-main {
+    border: none;
+    border-top: dashed 1px #FF0000;
+    height: 1px;
+    width: 600px;
+    }
+hr.line {
+    border: none;
+    border-top: dashed 1px #4766ffad;
+    height: 1px;
+    padding: 30px 0;
+}
+
+.profile {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.diary {
+    padding-top: 100px;
+    text-align: center;
+}
+.diary-content {
+    margin-bottom: 50px;
+}
+.diary-title a {
+    color: #4766ffad;
+}
+.diary-comment {
+    /* height: 3em; */
+    padding: 0 150px;
+}
+
+.diary-comment p {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.linkpage {
+    margin: 50px 0 50px 0;
+}
+.linkpage a {
+   color: tomato;
+}
+
+
+footer {
+    height: 100px;
+    background-color: tomato;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 35px;
+}
