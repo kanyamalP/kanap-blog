@@ -32,6 +32,9 @@ header {
     text-align: center;
     font-size: 24px;
     padding-top: 150px;/* 250px - 24px; */
+    color: #103386;
+    font-size: 30px;
+    font-family: -webkit-pictograph;
 }
 
 /*main-----p--*/
@@ -49,21 +52,34 @@ hr.line {
     padding: 30px 0;
 }
 
+.diary h1 {
+    font-size: 30px;
+    color: #103386;
+    padding-top: 130px;
+}
+
 .profile {
     padding-top: 100px;
     text-align: center;
 }
 
 .diary {
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     text-align: center;
 }
+
+
 .diary-content {
-    margin-bottom: 50px;
+   margin-bottom: 50px;
 }
 .diary-title a {
     color: #4766ffad;
 }
+
+.diary-title a:hover {
+   opacity: 0.5;
+}
+
 .diary-comment {
     /* height: 3em; */
     padding: 0 150px;
@@ -75,12 +91,22 @@ hr.line {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+
+
 .linkpage {
-    margin: 50px 0 50px 0;
+    margin: 50px 0 100px 0;
 }
 .linkpage a {
    color: tomato;
+   font-size: 30px;
+   border: solid 3px tomato;
+   padding: 0.5em 1em;
+   text-decoration: none;
 }
+.linkpage a:hover {
+    background: rgba(255,0,0,0.3);
+}
+
 
 
 footer {

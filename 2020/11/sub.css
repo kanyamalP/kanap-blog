@@ -1,0 +1,57 @@
+
+
+/*index.html 2020*/
+
+.main-content {
+    background-image: url(../iroenpitu.jpeg);
+    background-size: cover;
+    height: 475px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.main-photo h1 {
+    font-size: 40px;
+    padding-top: 190px;
+    font-family: auto;
+}
+
+
+.date-list {
+    list-style: none;
+    display: flex;
+}
+
+
+.date-list li {
+    padding: 0 6% 0 6%;
+}
+
+.date-list li:hover {
+    border-top: solid 10px #ff7d6e;
+}
+
+.date-list p {
+    color: #4766ffad;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.date-list a {
+    text-decoration: none;
+}
+.diary{
+    text-align: center;
+}
+hr.line-2020 {
+    border: none;
+    border-top: dashed 1px #FF0000;
+    height: 1px;
+    padding: 30px 0;
+}
+
+/*index.html 月*/
+
+/*.date-list a:visited {
+    background-color: tomato;
+}*/
