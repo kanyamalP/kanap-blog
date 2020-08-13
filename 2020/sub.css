@@ -3,7 +3,7 @@
 /*index.html 2020*/
 
 .main-content {
-    background-image: url(../iroenpitu.jpeg);
+    background-image: url(.././image/iroenpitu.jpeg);
     background-size: cover;
     height: 475px;
     background-repeat: no-repeat;
@@ -66,9 +66,31 @@ hr.line-2020 {
 
 .indent {
     padding: 30px 0;
-
-
-
-    
     margin: 0;
+}
+
+.page-link {
+    display: flex;
+    margin: 50px 0 80px 0;
+    
+}
+.page-link a {
+   color: tomato;
+}
+
+.page-link a:hover {
+   opacity: 0.5;
+ }
+ 
+.back{
+    position: absolute;
+    left: 30%;
+}
+
+.top {
+    margin: auto;
+}
+.next{
+    position: absolute;
+    right: 30%;
 }
