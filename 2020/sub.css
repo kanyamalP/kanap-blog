@@ -40,9 +40,9 @@
 .date-list a {
     text-decoration: none;
 }
-.diary{
+/*.diary{
     text-align: center;
-}
+}*/
 hr.line-2020 {
     border: none;
     border-top: dashed 1px #FF0000;
@@ -60,9 +60,19 @@ hr.line-2020 {
 
 
 /*index.html 日*/
-.diary-comment-main {
-    padding: 0 150px;
+
+.dairy-main {
+    display: flex;
 }
+
+.diary-comment-main {
+    padding: 0 80px;
+}
+
+.diary-content-today {
+    margin-bottom: 50px;
+    width: 1000px;
+ }
 
 .indent {
     padding: 30px 0;
@@ -93,4 +103,11 @@ hr.line-2020 {
 .next{
     position: absolute;
     right: 30%;
+}
+
+/*----サイドバー----------*/
+.sidebar {
+    position: absolute;
+    top: 900px;
+    right: 150px;
 }
